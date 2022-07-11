@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENUFTVirtual-Login y Register</title>
+    <link rel="shortcut icon" href="img/logo_render.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="./css/estilos.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="./css/stilseme.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <!--Menu-->
+    <nav class="menu">
+        <section class="menu__container">
+            <h1 class="menu__logo">ENUFTVirtual Docente</h1>
+
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="./index.html" class="menu__link">INICIO</a>
+                </li>
+                <li class="menu__item"><a href="#" class="menu__link">Contacto</a></li>
+            </ul>
+            <div class="menu__hamburguer">
+                <img src="assets/menu.svg" class="menu__img">
+            </div>
+        </section>
+    </nav>
+    <br><br>
+    <!--formulario-->
+        <main>
+            <div class="contenedor__todo">
+                <div class="caja__trasera">
+                    <div class="caja__trasera-login">
+                        <h3>¿Ya tienes una cuenta?</h3>
+                        <p>Inicia sesión para entrar en la página</p>
+                        <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                    </div>
+                    <div class="caja__trasera-register">
+                        <h3>¿Aún no tienes una cuenta?</h3>
+                        <p>Regístrate para que puedas iniciar sesión</p>
+                        <button id="btn__registrarse">Regístrarse</button>
+                    </div>
+                </div>
+                <!--Formulario de Login y registro-->
+                <div class="contenedor__login-register">
+                    <!--Login-->
+                    <form action="" class="formulario__login">
+                        <h2>Iniciar Sesión</h2>
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Entrar</button>
+                    </form>
+                    <!--Register-->
+                    <form action="" class="formulario__register">
+                        <h2>Regístrarse</h2>
+                        <input type="text" placeholder="Nombre's">
+                        <input type="text" placeholder="Apellido Paterno">
+                        <input type="text" placeholder="Apellido Meterno">
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Regístrarse</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <br><br><br><br><br><br>
+        <!--pie de pagina-->
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="./img/logo_render.png" alt="Logo de SLee Dw">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>Escuela Normal Urbana Federal</h2>
+                    <h3>"Lic. Emilio Sánchez Piedras"</h3>
+                    <p>SEP/Dirección General de Educación Superior para Profesionales de la Educación (DGESPE)</p>
+                    <p>Av. Profra. Leonarda Gómez Blanco s/n
+                        Col. Adolfo López Mateos 
+                        CP 90000, Tlaxcala, Tlaxcala
+                        Tels.: 246 462 28 24</p>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/Escuela-Normal-Urbana-Federal-de-Tlaxcala-877118579007926/" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>Escuela Normal Urbana Federal <a href="login-docente" class="link-oculto">"LIC. EMILIO SÁNCHES PIEDRAS"</a></b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer> 
+        <script src="./js/menulogin.js"></script>
+        <script src="./js/script.js"></script>
+</body>
+</html>
